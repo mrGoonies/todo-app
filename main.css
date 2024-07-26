@@ -63,6 +63,9 @@ table {
   src: url('./static/fonts/Satoshi-Bold.woff');
 }
 /* Custom styles */
+body {
+  background-color: #415a77;
+}
 .index {
   background-color: #415a77;
   .index__main {
