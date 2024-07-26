@@ -2,9 +2,10 @@ const username = prompt("Ingresa tu nombre de usuario:");
 
 alert(`Bienvenido a la página ${username}!`);
 
-/**
- * Muestra el menú de opciones para que el usuario pueda interactuar con la app.
- * @returns null | undefined
+/** 
+ * Muestra un menú para interactuar con la app de tareas.
+ * @returns {void}
+ * 
  */
 function menuApp() {
   let option = null;
@@ -15,7 +16,7 @@ function menuApp() {
         "Elija una opción:\n1. Crear una tarea\n2. Listar tarea por ID\n3. Eliminar tarea por ID\n4. Listar todas las tareas\n5. Salir"
       )
     );
-    
+
     console.log("Opción seleccionada:", option);
 
     switch (option) {
